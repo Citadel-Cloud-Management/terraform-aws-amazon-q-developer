@@ -275,3 +275,36 @@ output "pipeline_url" {
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+<!-- project-structure -->
+## Project structure
+
+```text
+├── .github/
+├── docs/
+│   └── architecture.html
+├── examples/
+│   └── complete/
+├── tests/
+│   ├── main.tf
+│   ├── outputs.tf
+│   └── providers.tf
+├── .editorconfig
+├── .gitattributes
+├── .pre-commit-config.yaml
+├── CHANGELOG.md
+├── CODEOWNERS
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── main.tf
+├── outputs.tf
+├── variables.tf
+└── versions.tf
+```
+
+<!-- architecture -->
+## Architecture
+
+![Architecture diagram](docs/architecture.svg)
